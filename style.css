@@ -241,3 +241,84 @@ footer p {
   border-radius: 8px;
 }
 /*footer section end*/
+/*responsive for mobile devices*/
+
+@media only screen and (max-width: 576px) {
+  header {
+    width: 100%;
+    padding: 30px auto;
+    margin-left: 240px;
+  }
+  header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li,
+  .nav-title h2 {
+    padding-bottom: 15px;
+  }
+  .brand-new-article {
+    width: 300px;
+  }
+  .banner-img {
+    width: fit-content;
+  }
+  .img-gallery-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 80%;
+  }
+  .feature {
+    margin: 100px 0 50px 200px;
+  }
+  .feature-list-section {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 80%;
+  }
+  .girl-img button {
+    position: relative;
+    top: 20%;
+    left: 30%;
+  }
+  .fact-section {
+    position: relative;
+    left: 60%;
+  }
+  .all-facts {
+    flex-direction: column;
+  }
+  .fact-list {
+    margin-bottom: 20px;
+  }
+  .sponsor-section {
+    position: relative;
+    left: 30%;
+  }
+  .sponsor-website {
+    flex-direction: column;
+  }
+  .website {
+    padding-bottom: 50px;
+    padding-left: 200px;
+  }
+  .bonus-marks-section {
+    width: fit-content;
+  }
+  .contact-info {
+    padding-right: 400px;
+  }
+  footer p {
+    margin: 50px 20px;
+    position: relative;
+    top: 20%;
+    left: 60%;
+  }
+}
