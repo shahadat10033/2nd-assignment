@@ -93,4 +93,52 @@ span {
 .img-gallery-section .feature h3 span {
   color: #ff900e;
 }
-/*img-gallery-section-start*/
+/*img-gallery-section-end*/
+/*feature-list-section-start*/
+.feature-list-section {
+  display: flex;
+  margin: 130px 240px;
+}
+.list-header {
+  padding: 30px 35px;
+}
+.list-header h2 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  border-left: 5px solid #ff900e;
+  padding-left: 30px;
+}
+.feature-articles .list,
+.header-description {
+  width: 586px;
+  padding: 30px 35px;
+}
+.feature-articles .list {
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.feature-articles .list h4 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+  padding-bottom: 15px;
+}
+.girl-img {
+  padding-left: 100px;
+  position: relative;
+}
+.girl-img img {
+  width: 708px;
+  height: 982px;
+}
+.girl-img button h2 {
+  font-weight: 700;
+  font-size: 65px;
+}
+.girl-img button {
+  position: relative;
+  top: -100px;
+  left: -100px;
+}
+/*feature-list-section-end*/ ;
