@@ -183,3 +183,36 @@ span {
 }
 
 /*fact-section-end*/
+/*sponsor-section-start*/
+.sponsor-section {
+  margin: 130px 240px;
+}
+.sponsor-header {
+  margin: 50px auto;
+  width: 542px;
+  text-align: center;
+}
+.sponsor-header h3 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  padding-bottom: 20px;
+}
+.sponsor-website {
+  display: flex;
+  justify-content: space-between;
+}
+.website img {
+  filter: grayscale(100%);
+}
+/*sponsor-section end*/
+/*footer section start*/
+footer p {
+  margin: 130px 240px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  background: #fff4e7;
+  border-radius: 8px;
+}
+/*footer section end*/
