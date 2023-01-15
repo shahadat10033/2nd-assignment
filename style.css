@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+}
+/*header-section-start*/
+header {
+  background-color: rgba(255, 144, 14, 0.1);
+  padding: 50px 240px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-title h2 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style-type: none;
+  padding-right: 25px;
+}
+nav ul li a {
+  font-size: 18px;
+  color: #424242;
+}
+nav a {
+  text-decoration: none;
+}
+.brand-new-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.brand-new-article {
+  width: 862px;
+  margin-top: 145px;
+  text-align: center;
+}
+.brand-new-article h2 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #131313;
+}
+.brand-new-article p {
+  padding-top: 20px;
+}
+.btn-primary {
+  padding: 20px 24px;
+  background: #ff900e;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 36px auto;
+}
+.banner-img {
+  width: 1440px;
+}
+/*header-section-end*/
