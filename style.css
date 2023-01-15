@@ -64,3 +64,33 @@ nav a {
   width: 1440px;
 }
 /*header-section-end*/
+/*img-gallery-section-start*/
+.img-gallery-section {
+  display: flex;
+  justify-content: center;
+  padding: 50px 280px;
+  align-items: center;
+}
+.img-gallery img {
+  width: 342px;
+  height: 342px;
+  padding: 12px;
+}
+.img-gallery-section .feature {
+  width: 537px;
+}
+
+.img-gallery-section .feature b,
+span {
+  font-weight: 500;
+  font-size: 45px;
+}
+.img-gallery-section .feature h3 {
+  font-size: 45px;
+  width: 445px;
+  padding-bottom: 20px;
+}
+.img-gallery-section .feature h3 span {
+  color: #ff900e;
+}
+/*img-gallery-section-start*/
