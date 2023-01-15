@@ -206,6 +206,31 @@ span {
   filter: grayscale(100%);
 }
 /*sponsor-section end*/
+/*bonus-smarks-ection start*/
+.bonus-marks-section {
+  background-color: #222222;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  margin: 130px 240px;
+  padding: 100px 50px;
+}
+.contact-info h2 {
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.donate-info h2 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+input[type="text"],
+input[type="number"] {
+  border: none;
+  border-radius: 5px;
+}
+/*bonus-marks-section-end*/
 /*footer section start*/
 footer p {
   margin: 130px 240px;
